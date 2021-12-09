@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* Roboto Slab */
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    padding: 0px 30px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(124,67,105,1) 72%);
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    /* horizontal,vertical, difuminado o desenfoque */
+    text-shadow: 5px 3px 5px #fff;
+}
+
+h2,h3,h4,h5,h6{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.biografia{
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.biografia img{
+    width: 300px;
+    height: 300px;
+}
+
+ul li{
+    list-style: circle;
+}
+
+.visible{
+    visibility: hidden;
+}
+
